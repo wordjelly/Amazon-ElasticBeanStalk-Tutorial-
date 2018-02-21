@@ -30,4 +30,39 @@ eb --version
 It should return the version of the eb client
 
 
+### Creating an App and Environment
+
+Go the amazon console online.
+
+THere go to ElasticBeanStalk and Create an App.
+
+Inside the App follow the wizard to create an environment.
+
+Now from the console in your terminal , type
+
+```
+eb init
+```
+
+Use the same app name, and environment name that you made in the online console.
+
+### Creating Users and Groups
+
+Create A user, and place it inside a group.
+
+Use this user for everything.
+
+
+### Creating An ElasticSearch Cluster
+
+Go to the elasticsearch service in the online console.
+
+Follow the wizard to create a cluster.
+
+Set the policy so that the user created above can be the only one to access that cluster.
+
+
+### Creating A Redis Cluster
+
+
 
